@@ -8,6 +8,8 @@ import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
 import org.springframework.stereotype.Component;
 
 /**
+ * 在请求开始时记录请求的开始时间并记录到请求上下文中。
+ *
  * @author Li Kai
  */
 @Slf4j

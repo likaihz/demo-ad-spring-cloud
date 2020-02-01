@@ -10,6 +10,8 @@ import org.springframework.stereotype.Component;
 import javax.servlet.http.HttpServletRequest;
 
 /**
+ * 在请求结束后在日志中记录该请求的总时长。
+ *
  * @author Li Kai
  */
 @Slf4j
